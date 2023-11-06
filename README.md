@@ -6,11 +6,17 @@ C program using open, read, write, close , create , fork() system calls.
 ## ALGORITHM:
 
 1.Start the program.
+
 2.Open a file for O_RDWR for R/W,O_CREATE for creating a file ,O_TRUNC for truncate a file.
+
 3.Using getchar(), read the character and stored in the string[] array.
+
 4.The string [] array is write into a file close it.
+
 5.Then the first is opened for read only mode and read the characters and displayed it and close the file.
+
 6.Use Fork().
+
 7.Stop the program.
 
 PROGRAM:
